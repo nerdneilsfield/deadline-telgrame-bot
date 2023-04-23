@@ -15,5 +15,5 @@ build:
 	sudo docker build -t deadline_telegram_bot .
 
 .PHONY: config
-build:
+config:
 	cp config/config.example.yml config/config.yml
